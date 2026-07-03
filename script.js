@@ -8,28 +8,28 @@ let tasks = [],
           tasks = [
             {
               id: 1,
-              title: "Evaluate the addition and deletion of user IDs",
+              title: "Obeis a martin",
               status: "pending",
               priority: "minor",
               completed: false,
             },
             {
               id: 2,
-              title: "Identify the implementation team",
+              title: "Ne pas enerve martin",
               status: "progress",
               priority: "normal",
               completed: false,
             },
             {
               id: 3,
-              title: "Batch schedule download/process",
+              title: "Toujour faire ce que martin dit",
               status: "pending",
               priority: "critical",
               completed: false,
             },
             {
               id: 4,
-              title: "Monitor system performance and adjust hardware",
+              title: "Toujour le faire sourire",
               status: "pending",
               priority: "minor",
               completed: false,
@@ -46,7 +46,7 @@ let tasks = [],
         else if (hour >= 18) greet = "Good Evening";
         document.getElementById(
           "greeting"
-        ).textContent = `${greet}, Codynn`;
+        ).textContent = `${greet}, Leslie`;
       }
 
       function saveData() {
@@ -191,4 +191,3 @@ let tasks = [],
       }
 
       loadData();
-   
