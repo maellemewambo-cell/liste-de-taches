@@ -377,6 +377,7 @@
           grid-template-columns: 1fr; 
           font-size: 20px;
           background-color: white;
+          box-shadow: none;
         }
         input[type=text] .search-bar {
           width: 200px;
