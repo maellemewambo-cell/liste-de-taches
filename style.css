@@ -373,10 +373,13 @@
       }
 
       @media (max-width: 600px) {
+        body{
+          background: white;
+        }
         .container{
           grid-template-columns: 1fr; 
           font-size: 20px;
-          background-color: white;
+          background: white;
           box-sizing: 100%;
           box-shadow: none;
           width: 100%;
