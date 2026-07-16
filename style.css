@@ -366,9 +366,33 @@
       .btn-secondary:hover {
         background: #e5e7eb;
       }
-      @media (max-width: 600px) {
+      @media (max-width: 1000px) {
         .container {
           grid-template-columns: 1fr;
         }
+      }
+
+      @media (max-width: 600px) {
+        .container{
+          grid-template-columns: 1fr; 
+          font-size: 20px;
+          background-color: white;
+        }
+        input[type=text] .search-bar {
+          width: 200px;
+        }
+        .title-section{
+          font-size: 20px;
+          grid-template-columns: 1fr 1fr;
+          display: flex;
+          flex-direction: column;
+        }
+        .add-btn{
+          width: 40%;
+        }
+        .sidebar{
+          background-color: white;
+        }
+        
       }
     
