@@ -372,33 +372,28 @@
         }
       }
 
-      @media (max-width: 600px) {
-        body{
-          background: white;
+      @media (max-width: 43.75rem) {
+        /*
+        700/16 = 45rem
+        43.75rem * 16 = 700
+        */
+        html{
+          /*
+          10/16 = 62.5
+          */
+          font-size: 62.5%;
         }
-        .container{
-          grid-template-columns: 1fr; 
-          font-size: 20px;
-          background: white;
-          box-sizing: 100%;
-          box-shadow: none;
-          width: 100%;
+      }
+      @media (max-width: 29.4rem) {
+        /*
+        470/16 = 29.4rem
+        29.4rem * 16 = 470.4
+        */
+        html{
+          /*
+          8/16 =50%
+          */
+          font-size: 50%;
         }
-        input[type=text] .search-bar {
-          width: 200px;
-        }
-        .title-section{
-          font-size: 20px;
-          grid-template-columns: 1fr 1fr;
-          display: flex;
-          flex-direction: column;
-        }
-        .add-btn{
-          width: 40%;
-        }
-        .sidebar{
-          background-color: white;
-        }
-        
       }
     
